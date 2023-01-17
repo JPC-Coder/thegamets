@@ -1,4 +1,4 @@
-*/
+
   .img{
     grid-gap: 2.2rem;
   }
@@ -13,20 +13,20 @@ body {
 
 
 
-/* Position the navbar container inside the image */
+ Position the navbar container inside the image */
 .container {
   position: absolute;
   margin: 20px;
-  width: auto;
+  width: 10%;
 }
 
-/* The navbar */
+ The navbar */
 .topnav {
   overflow: hidden;
-  background-color: rgb(5, 4, 4);
+  background-color: rgba(142, 90, 90, 0.409);
 }
 
-/* Navbar links */
+
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -38,18 +38,19 @@ body {
 
 .topnav a:hover {
   background-color: #ddd;
-  color: black;
+  color: rgb(7, 1, 1);
 }
 
-/*hero header CSS*/
+
 .main{
+ 
   margin: 0; 
   padding-right: 25px;
 }
 
-/* Hero Section CSS */
+
 .main {
-  background-color: rgb(5, 0, 0);
+  background-color: rgba(5, 0, 0, 0.215);
 }
 
 html {
@@ -60,7 +61,7 @@ body {
   padding: rem;
   font-family:Arial, Helvetica, sans-serif
 }
-/* The Container */
+
 .box-grid {
   display: -ms-grid;
   display: grid;
@@ -84,10 +85,9 @@ body {
   color: #d9d9d9;
 }
 
-/* Box: top right */
-.box-flex-top-right {
-  justify-content: flex-end;
-}
+
+
+
 /* Box: Center Center */
 .box-flex-center {
   align-items: center;
@@ -217,42 +217,6 @@ body{
   justify-content: center;
 }
 
-    
-
-
-.hero-text {
-  text-align: center;
-  position:absolute;
-  top: 30%;
-  left: 90%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-
-.hero-text button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  color: black;
-  background-color: #ddd;
-  text-align: center;
-  cursor: pointer;
-}
-
-.hero-text button:hover {
-  background-color: #555;
-  color: white;
-}
-
-  .hero-text {
-  text-align: center;
-  position:absolute;
-  top: 30%;
-  left: 90%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
 
 
 
